@@ -6,7 +6,7 @@ import InterBold from '../assets/fonts/static/Inter-Bold.ttf';
 function Navbar({ handleNavbar }) {
 	return (
 		<Wrapper>
-			<nav className='nav' onClick={handleNavbar}>
+			<nav className='navbar' onClick={handleNavbar}>
 				<ul className='links'>
 					<li>
 						<Link activeClass='active' smooth spy to='home'>
@@ -56,7 +56,7 @@ function Navbar({ handleNavbar }) {
 }
 
 const Wrapper = styled.div`
-	.nav {
+	.navbar {
 		display: flex;
 		flex-direction: column;
 		margin-top: -5rem;
@@ -98,7 +98,7 @@ const Wrapper = styled.div`
 	}
 
 	@media screen and (min-width: 768px) {
-		.nav {
+		.navbar {
 			flex-direction: row;
 			margin-bottom: 3rem;
 			height: 3rem;
