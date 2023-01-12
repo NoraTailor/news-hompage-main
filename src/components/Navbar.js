@@ -117,7 +117,7 @@ const Wrapper = styled.div`
 			margin-top: 1rem;
 			width: 80%;
 			justify-content: space-around;
-			font-size: 0.7rem;
+			font-size: 1rem;
 		}
 
 		li {

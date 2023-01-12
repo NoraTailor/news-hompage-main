@@ -88,9 +88,9 @@ const Wrapper = styled.div`
 		.logo {
 			position: relative;
 			top: 2rem;
-			left: 10rem;
-			width: 5%;
-			height: 2rem;
+			left: 18%;
+			width: 3%;
+			height: 2.2rem;
 		}
 	}
 `;

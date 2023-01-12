@@ -31,7 +31,7 @@ const Wrapper = styled.section`
 	.post-container {
 		display: flex;
 		align-items: flex-start;
-		width: 82%;
+		width: 80%;
 		margin-bottom: 1.2rem;
 	}
 
@@ -64,31 +64,34 @@ const Wrapper = styled.section`
 		display: grid;
 		margin-left: 1.5rem;
 		grid-template-columns: repeat(3, 1fr);
-		width: 75%;
-		top: -25rem;
-		right: -8.5rem;
+		width: 70%;
+
+		top: -32rem;
+		right: -16%;
 		.post-container {
-			width: 70%;
+			width: 89%;
 			height: 80%;
 		}
+
 		img {
-			width: 5rem;
+			width: 9rem;
 		}
 		.text {
 			margin-top: 0.2rem;
 		}
 
 		h3 {
-			font-size: 0.7rem;
+			font-size: 1.3rem;
 			margin-top: 0.9rem;
 		}
 
 		h2 {
-			font-size: 1.3rem;
+			font-size: 1.9rem;
+			margin-bottom: 0.2rem;
 		}
 
 		p {
-			font-size: 0.6rem;
+			font-size: 1.2rem;
 		}
 	}
 `;

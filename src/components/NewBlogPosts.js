@@ -45,24 +45,26 @@ const Wrapper = styled.section`
 	}
 	@media screen and (min-width: 768px) {
 		position: relative;
-		width: 20%;
+		width: 17%;
 		height: 16rem;
-		top: -25rem;
-		right: -58%;
+		top: -34.5rem;
+		right: -62.5%;
 		padding-left: 0.5rem;
+		height: 25%;
 
 		h1 {
-			font-size: 1.5rem;
+			font-size: 1.9rem;
 			margin-top: -1rem;
 			margin-left: 1rem;
 			margin-bottom: -0.7rem;
 		}
 
 		h2 {
-			font-size: 0.8rem;
+			font-size: 1.3rem;
 		}
 		p {
-			font-size: 0.7rem;
+			font-size: 1rem;
+			margin-bottom: 1.5rem;
 		}
 	}
 `;

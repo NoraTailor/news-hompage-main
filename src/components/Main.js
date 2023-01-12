@@ -69,26 +69,26 @@ const Wrapper = styled.section`
 			width: 45vw;
 			background-size: 100%;
 			position: relative;
-			top: -1.5rem;
-			left: -9rem;
+			top: 5%;
+			left: -10%;
 		}
 
 		.main-text-container {
 			display: grid;
 			grid-template-columns: 1fr 1fr;
-			width: 50%;
+			width: 45%;
 			flex-wrap: wrap;
 			height: 25%;
 			position: relative;
-			top: -2.5rem;
-			left: -7rem;
+			top: -5%;
+			left: -10%;
 		}
 
 		h1 {
 			margin-top: 1.4rem;
-			font-size: 2.5rem;
+			font-size: 4rem;
 			font-weight: 900;
-			line-height: 2.5rem;
+			line-height: 3.5rem;
 			word-wrap: break-word;
 		}
 		.small-text-container {
@@ -98,12 +98,11 @@ const Wrapper = styled.section`
 		}
 
 		p {
-			font-size: 0.7rem;
+			font-size: 1rem;
 		}
 		button {
-			margin-top: 0.6rem;
+			margin-top: 0.7rem;
 			width: 60%;
-			padding: 0.5rem;
 		}
 	}
 `;
